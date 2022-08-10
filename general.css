@@ -1,0 +1,177 @@
+/* --------Adding Font Families---------- */
+@font-face {
+  font-family: "Mouse Memoirs", sans-serif;
+  src: url("./fonts/MouseMemoirs-Regular.ttf");
+}
+
+/* ---------Add Title Font Styles------------- */
+.title_1_Gubia-Black_100_96 {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 96px;
+}
+.title_2_Gubia-Black_56 {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 56px;
+}
+.title_3_Gubia-Black_40_52 {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+}
+.title_4_Gubia-Black_25_30 {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+}
+/* ---------Add Accent Font Styles------------- */
+.accent_1_Gubia-Black_70 {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 70px;
+}
+.accent_2_Gubia-Black_50 {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 50px;
+}
+/* ---------Add Body Font Styles------------- */
+.body_1_Arial-Reg_23_28 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+}
+.body_2_Arial-Reg_18_25 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.body_3_Gubia-Black_20_30 {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 30px;
+}
+.body_4_Gubia-Black_16_20 {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+}
+/* ---------Add Link Font Styles------------- */
+.links_1_Gubia-black_40_30 {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 30px;
+}
+/* ---------Add Footer Note Font Styles------------- */
+.footnote_1_Gubia-Bold_20_30 {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+.footnote_2_Arial-Reg_14_20 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+}
+/* Laptop Font Styles */
+@media (max-width: 1440px) {
+  .title_1_Gubia-Black_100_96 {
+    font-size: 79px;
+    line-height: 86px;
+  }
+  .title_2_Gubia-Black_56 {
+    font-size: 56px;
+    line-height: 60px;
+  }
+  .accent_1_Gubia-Black_70 {
+    font-size: 56px;
+    line-height: 56px;
+  }
+  .accent_2_Gubia-Black_50 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+  .links_1_Gubia-black_40_30 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+}
+/* -------Tablet Size Font Styles------- */
+@media (max-width: 768px) {
+  .title_1_Gubia-Black_100_96 {
+    font-size: 68px;
+    line-height: 72px;
+  }
+  .title_2_Gubia-Black_56 {
+    font-size: 43px;
+    line-height: 45px;
+  }
+  .title_3_Gubia-Black_40_52 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .accent_1_Gubia-Black_70 {
+    font-size: 43px;
+    line-height: 45px;
+  }
+  .accent_2_Gubia-Black_50 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+}
+/* ------Mobile Font Styles----- */
+@media (max-width: 375px) {
+  .title_1_Gubia-Black_100_96 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .title_2_Gubia-Black_56 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .title_3_Gubia-Black_40_52 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .accent_1_Gubia-Black_70 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .accent_2_Gubia-Black_50 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .body_4_Gubia-Black_16_20 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+}

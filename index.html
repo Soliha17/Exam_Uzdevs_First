@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./general.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <title>Navigation bar</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="brand" class="brand">
+        <div class="brand-logo">
+          <a href="index.html"
+            ><img src="./icons/logo-main.svg" alt="logo"
+          /></a>
+        </div>
+        <div class="brand-info">
+          <p class="brand-info-p1 body_4_Gubia-Black_16_20">8 800 600 20 20</p>
+          <p class="brand-info-p2 footnote_2_Arial-Reg_14_20">Новосибирск</p>
+        </div>
+      </div>
+      <div class="header-middle-section">
+        <div class="catalog">
+          <a class="catalog-dropdown"
+            ><img src="./icons/dropdown-icon-header.svg" alt="aa" />
+            <img src="./icons/dropdown-icon-header.svg" alt="vv"
+          /></a>
+          <span class="body_4_Gubia-Black_16_20">Каталог</span>
+        </div>
+        <div class="search">
+          <input
+            class="search-input"
+            type="search"
+            placeholder="Искать оборудование"
+          />
+          <img class="search-icon" src="./icons/search-icon.svg" alt="gfg" />
+        </div>
+      </div>
+      <nav class="desktop-menu">
+        <ul>
+          <li class="link-1"><a href="#about">о hitch</a></li>
+          <li class="link-2"><a href="#contact">контакты</a></li>
+          <li class="link-3">
+            <a href="#buy"><img src="./icons/basket-icon.svg" alt="img" /></a>
+          </li>
+          <li class="link-4">
+            <a href="#account"><img src="./icons/Frame 7697.png" alt="img" /></a>
+          </li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <nav class="mobile-menu">
+          <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+          <p>aaaa</p>
+          <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-container">
+      <div class="container-m">
+        <div class="main-left">
+          <p class="main-title">
+            Надежно.А как иначе?<span>Ручная цепная таль CH200-G</span>
+          </p>
+          <div class="main-left-footer">
+            <span>от 10 204 ₽</span>
+            <a class="call_button" href="#buy">Купить</a>
+          </div>
+        </div>
+        <div class="main-right">
+          <img src="./images/Layer 1 1.png" alt="img" />
+        </div>
+      </div>
+    </main>
+    <section class="find-right-equipment">
+      <p class="container find-right-equipment-info">
+        Найдите подходящее <br />
+        оборудование
+      </p>
+      <div class="container">
+        <div class="find-left">
+          <span>Системы креплеения грузов</span>
+          <img src="./images/Frame 7780.png" alt="img" />
+        </div>
+        <div class="find-right">
+          <span>Стропы </span>
+          <img src="./images/Frame 7780 (1).png" alt="img" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="find-left">
+          <span>Тали ручные рычажные</span>
+          <img src="./images/image 116.png" alt="img" />
+        </div>
+        <div class="find-right">
+          <span>Тали ручные цепные </span>
+          <img src="./images/Frame 7780 (3).png" alt="img" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="find-left">
+          <span>Тележки для талей</span>
+          <img src="./images/image 111.png" alt="img" />
+        </div>
+        <div class="find-right">
+          <span>Стропы</span>
+          <img src="./images/Frame 7780 (1).png" alt="img" />
+        </div>
+      </div>
+      <a class="find-btn call_button" href="#buy">перейти в каталог</a>
+    </section>
+    <aside>
+      <div class="aside-container">
+        <p>ТАЛИ HITCH LHM 104-G ПЕРЧАТКИ В ПОДАРОК</p>
+        <a class="aside-btn save_button" href="">подробнее</a>
+        <p class="last-p">ПРИ ПОКУПКЕ РУЧНОЙ РЫЧАЖНОЙ</p>
+      </div>
+    </aside>
+    <section class="sales-leaders">
+      <p class="container leader-info">Лидеры продаж</p>
+      <div class="container">
+        <div class="sales-container">
+          <div class="sales-img">
+            <img src="./images/img-1.png" alt="img" />
+          </div>
+          <div class="sales-info">
+            <p>Ручной рычажный подъемник LH200-G</p>
+            <div class="sales-footer">
+              <span>8 100 ₽</span>
+              <img src="./icons/plus.svg" alt="img" />
+            </div>
+          </div>
+        </div>
+        <div class="sales-container">
+          <div class="sales-img">
+            <img src="./images/img-2.png" alt="img" />
+          </div>
+          <div class="sales-info">
+            <p>Ручной рычажный подъемник LH200-G</p>
+            <div class="sales-footer">
+              <span>8 100 ₽</span>
+              <img src="./icons/plus.svg" alt="img" />
+            </div>
+          </div>
+        </div>
+        <div class="sales-container">
+          <div class="sales-img">
+            <img src="./images/img-3.png" alt="img" />
+          </div>
+          <div class="sales-info">
+            <p>Ручной рычажный подъемник LH200-G</p>
+            <div class="sales-footer">
+              <span>8 100 ₽</span>
+              <img src="./icons/plus.svg" alt="img" />
+            </div>
+          </div>
+        </div>
+        <div class="sales-container">
+          <div class="sales-img">
+            <img src="./images/img-1.png" alt="img" />
+          </div>
+          <div class="sales-info">
+            <p>Ручной рычажный подъемник LH200-G</p>
+            <div class="sales-footer">
+              <span>8 100 ₽</span>
+              <img src="./icons/plus.svg" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="regular">
+      <div class="container">
+        <div class="regular-left">
+          <p>Серия Regular</p>
+          <p>ХОРОШИЙ ВЫБОР ДЛЯ ЭФФЕКТИВНОЙ РАБОТЫ</p>
+          <a class="regular-btn call_button" href="#buy">Купить</a>
+          <img src="./images/Layer 1 1.png" alt="img" />
+        </div>
+        <div class="regular-right">
+          <div class="sales-container">
+            <div class="sales-img">
+              <img src="./images/img-1.png" alt="img" />
+            </div>
+            <div class="sales-info">
+              <p>Ручной рычажный подъемник LH200-G</p>
+              <div class="sales-footer">
+                <span>8 100 ₽</span>
+                <img src="./icons/plus.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="sales-container">
+            <div class="sales-img">
+              <img src="./images/img-1.png" alt="img" />
+            </div>
+            <div class="sales-info">
+              <p>Ручной рычажный подъемник LH200-G</p>
+              <div class="sales-footer">
+                <span>8 100 ₽</span>
+                <img src="./icons/plus.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="regular regular-2">
+      <div class="container">
+        <div class="regular-right right">
+          <div class="sales-container">
+            <div class="sales-img">
+              <img src="./images/img-1.png" alt="img" />
+            </div>
+            <div class="sales-info">
+              <p>Ручной рычажный подъемник LH200-G</p>
+              <div class="sales-footer">
+                <span>8 100 ₽</span>
+                <img src="./icons/plus.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="sales-container">
+            <div class="sales-img">
+              <img src="./images/img-1.png" alt="img" />
+            </div>
+            <div class="sales-info">
+              <p>Ручной рычажный подъемник LH200-G</p>
+              <div class="sales-footer">
+                <span>8 100 ₽</span>
+                <img src="./icons/plus.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="regular-left second">
+          <p>Серия PROFESSIONAL</p>
+          <p>ЭФФЕКТИВНОЕ РЕШЕНИЕ ДЛЯ САМОЙ ТЯЖЕЛОЙ РАБОТЫ</p>
+          <a class="regular-btn call_button" href="#buy">Купить</a>
+          <img src="./images/Layer 1 1.png" alt="img" />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <p>
+          Компания Hitchlifting Inc. (Texas, US) разрабатывает и производит
+          прочное и безопасное промышленное оборудование для подъема грузов, в
+          том числе для самых суровых условий. <a href="index.html">подробнее о HITCH</a>
+        </p>
+      </div>
+    </section>
+    <section class="news" id="account">
+      <div class="news-container container">
+        <div class="news-info">
+          <p>Новости</p>
+          <a class="call_button" href="index.html">Все новости</a>
+        </div>
+        <div class="news-content">
+          <div class="new-img new-img-1">
+            <p>
+              Автоматизация <br />
+              ООО «ДетроГаз»
+            </p>
+            <p>15 сентября 2022</p>
+          </div>
+          <div class="new-img new-img-2">
+            <p>
+              Новая технология smart <br />
+              protection+
+            </p>
+            <p>3 августа 2022</p>
+          </div>
+          <div class="new-img new-img-3">
+            <p>
+              открытие Академии HITCH <br />
+              в новосибирске
+            </p>
+            <p>27 июля 2022</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="map" id="buy">
+      <div class="container">
+        <p>Где купить <span>В новосибирске</span></p>
+        <img src="./images/Frame 92.png" alt="img" />
+      </div>
+    </section>
+    <aside class="last-aside">
+      <div class="container">
+        <p>Узнавайте о скидках первыми</p>
+        <div class="submit-container">
+          <input type="text" placeholder="Email" />
+          <button class="call_button">подписаться</button>
+        </div>
+      </div>
+    </aside>
+    <!-- Footer section -->
+    <div class="footer-section" id="contact">
+      <footer class="footer container">
+        <div class="footer__addr">
+          <a class="footer__logo">
+            <img src="./icons/logo-main.svg" alt="img" />
+          </a>
+          <address>Новосибирск<br /></address>
+          <p class="time">пн-пт 10:00 – 20:00</p>
+          <p class="number">+7 (800) 000-00-10</p>
+          <a class="email" href="">hello@hitch.ru</a>
+        </div>
+
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title">Каталог</h2>
+
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Системы крепления грузов</a>
+              </li>
+
+              <li>
+                <a href="#">Стропы текстильнык</a>
+              </li>
+
+              <li>
+                <a href="#">Тали ручные рычажные</a>
+              </li>
+              <li>
+                <a href="#">Тали ручные цепные</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item">
+            <h2 class="nav__title">О Hitch</h2>
+
+            <ul class="nav__ul nav__ul--extra">
+              <li>
+                <a href="#">Контакты</a>
+              </li>
+
+              <li>
+                <a href="#">Реквизиты</a>
+              </li>
+
+              <li>
+                <a href="#">Производство</a>
+              </li>
+
+              <li>
+                <a href="#">Академия HITCH</a>
+              </li>
+
+              <li>
+                <a href="#">Работа у нас</a>
+              </li>
+
+              <li>
+                <a href="#">IoT</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <h2 class="nav__title">Покупателям</h2>
+
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Как оформить заказ</a>
+              </li>
+
+              <li>
+                <a href="#">Оплата и доставка</a>
+              </li>
+
+              <li>
+                <a href="#">Магазины</a>
+              </li>
+              <li>
+                <a href="#">Сервисные центры</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item">
+            <h2 class="nav__title">Партнерам</h2>
+
+            <ul class="nav__ul">
+              <li>
+                <a href="#"> Личный кабинет</a>
+              </li>
+
+              <li>
+                <a href="#">Оптовым клиентам</a>
+              </li>
+
+              <li>
+                <a href="#">Франшиза</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="legal">
+          <div>
+            <img src="./icons/Frame 10.svg" alt="img" />
+            <img src="./icons/Frame 11.svg" alt="img" />
+            <img src="./icons/Frame 12.svg" alt="img" />
+            <img src="./icons/Frame 13.svg" alt="img" />
+          </div>
+
+          <div class="legal__links">
+            <img src="./icons/Frame 121.svg" alt="img" />
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
