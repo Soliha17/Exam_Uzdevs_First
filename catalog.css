@@ -1,0 +1,19 @@
+/* @import url('./general.css');
+@import url('./main.css'); */
+.catalog-main {
+  background-image: linear-gradient(rgba(1, 1, 1, 0.8), rgba(0, 0, 1, 0.8)),
+    url("./images/main-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  height: 680px;
+}
+.catalog-main p{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 96;
+  color: white;
+}

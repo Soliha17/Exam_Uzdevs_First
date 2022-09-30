@@ -175,3 +175,11 @@
     line-height: 40px;
   }
 }
+header,
+section,
+aside,
+main,
+.footer-section {
+  max-width: 1920px;
+  margin: 0 auto;
+}
